@@ -58,7 +58,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>mx.edu.utez.sistemadegestiondeprocutos/mx.edu.utez.sistemadegestiondeprocutos.HelloApplication</mainClass>
+              <mainClass>mx.edu.utez.sistemadegestiondeprocutos/mx.edu.utez.sistemadegestiondeprocutos.Main</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
