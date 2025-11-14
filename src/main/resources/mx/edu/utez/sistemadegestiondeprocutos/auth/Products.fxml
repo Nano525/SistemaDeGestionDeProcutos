@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.edu.utez.sistemadegestiondeprocutos.controllers.HelloController">
+    <children>
+      <VBox layoutX="32.0" layoutY="44.0" prefHeight="632.0" prefWidth="1016.0">
+        <children>
+          <Label prefHeight="51.0" prefWidth="365.0" style="-fx-font-size: 25px; -fx-font-weight: bold;" text="Gestión de Productos" />
+          <Label prefHeight="40.0" prefWidth="406.0" style="-fx-text-fill: #636f7e; -fx-font-size: 15px;" text="Administra el inventario y estado de tus productos" />
+          <Pane prefHeight="539.0" prefWidth="1016.0">
+            <children>
+              <TextField layoutY="14.0" prefHeight="34.0" prefWidth="351.0" promptText="🔍 Buscar" />
+              <ComboBox fx:id="filterGeneration" layoutX="362.0" layoutY="14.0" prefHeight="34.0" prefWidth="192.0" promptText="Todas las categorías" />
+                  <VBox layoutY="62.0" prefHeight="477.0" prefWidth="1025.0">
+                     <children>
+                    <TableView prefHeight="671.0" prefWidth="1200.0">
+                      <columns>
+                        <TableColumn prefWidth="273.2000045776367" text="Producto" />
+                        <TableColumn minWidth="0.0" prefWidth="98.80001831054688" text="Codigo" />
+                        <TableColumn prefWidth="109.99996948242188" text="Precio" />
+                        <TableColumn prefWidth="124.4000244140625" text="Categoria" />
+                        <TableColumn prefWidth="138.4000244140625" text="Stock" />
+                        <TableColumn prefWidth="119.5999755859375" text="Estado" />
+                        <TableColumn prefWidth="156.800048828125" text="Acciones" />
+                      </columns>
+                    </TableView>
+                     </children></VBox>
+            </children>
+          </Pane>
+        </children>
+      </VBox>
+    </children>
+  </AnchorPane>

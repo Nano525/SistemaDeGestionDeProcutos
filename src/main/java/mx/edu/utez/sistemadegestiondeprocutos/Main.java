@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/mx/edu/utez/sistemadegestiondeprocutos/hello-view.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/mx/edu/utez/sistemadegestiondeprocutos/auth/Products.fxml"));
 
             if (fxmlLoader.getLocation() == null) {
                 return;

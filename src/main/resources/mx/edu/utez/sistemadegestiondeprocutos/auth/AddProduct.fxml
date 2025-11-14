@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.edu.utez.sistemadegestiondeprocutos.controllers.AddProductController">
+    <Pane layoutY="-8.0" prefHeight="590.0" prefWidth="1016.0">
+        <children>
+            <Label layoutX="31.0" layoutY="65.0" prefHeight="40.0" prefWidth="406.0" style="-fx-text-fill: #636f7e; -fx-font-size: 15px;" text="Ingresa la información de el producto" />
+            <Label layoutX="31.0" layoutY="22.0" prefHeight="51.0" prefWidth="365.0" style="-fx-font-size: 25px; -fx-font-weight: bold;" text="Agregar Producto" />
+            <VBox layoutX="31.0" layoutY="105.0" prefHeight="449.0" prefWidth="288.0">
+                <children>
+                    <Label prefHeight="34.0" prefWidth="129.0" text="Nombre del Producto" />
+                    <TextField prefHeight="26.0" prefWidth="776.0" promptText="Ingresa el nombre del producto" />
+                    <Label prefHeight="34.0" prefWidth="129.0" text="Código del Producto" />
+                    <TextField prefHeight="26.0" prefWidth="776.0" promptText="Código único del producto" />
+                    <HBox prefHeight="24.0" prefWidth="288.0">
+                        <children>
+                            <Label prefHeight="24.0" prefWidth="143.0" text="Precio" />
+                            <Label text="Stock" />
+                        </children>
+                    </HBox>
+                    <HBox prefHeight="40.0" prefWidth="288.0">
+                        <children>
+                            <TextField prefHeight="26.0" prefWidth="127.0" promptText="\$0.00" />
+                            <Label text="    " />
+                            <TextField prefHeight="26.0" prefWidth="140.0" promptText="0" />
+                        </children>
+                    </HBox>
+                    <Label prefHeight="34.0" prefWidth="129.0" text="Categoría" />
+                    <SplitMenuButton mnemonicParsing="false" prefHeight="26.0" prefWidth="296.0" text="Seleccionar">
+                        <items>
+                            <MenuItem mnemonicParsing="false" text="Action 1" />
+                            <MenuItem mnemonicParsing="false" text="Action 2" />
+                        </items>
+                    </SplitMenuButton>
+                    <Label prefHeight="34.0" prefWidth="129.0" text="Estado" />
+                    <SplitMenuButton mnemonicParsing="false" prefHeight="26.0" prefWidth="298.0" text="Seleccionar">
+                        <items>
+                            <MenuItem mnemonicParsing="false" text="Action 1" />
+                            <MenuItem mnemonicParsing="false" text="Action 2" />
+                        </items>
+                    </SplitMenuButton>
+                    <Label text="    " />
+                    <HBox prefHeight="42.0" prefWidth="288.0">
+                        <children>
+                            <Button mnemonicParsing="false" prefHeight="15.0" prefWidth="113.0" text="Cancelar" />
+                            <Label text="    " />
+                            <Button mnemonicParsing="false" prefHeight="18.0" prefWidth="117.0" text="Guardar Cambios" />
+                        </children>
+                    </HBox>
+                </children>
+            </VBox>
+            <Pane layoutX="387.0" layoutY="105.0" prefHeight="354.0" prefWidth="570.0">
+                <children>
+                    <Label layoutY="6.0" prefHeight="34.0" prefWidth="88.0" text="Descripción" />
+                    <TextArea layoutY="40.0" prefHeight="264.0" prefWidth="570.0" />
+                </children>
+            </Pane>
+        </children></Pane>
+
+</AnchorPane>
