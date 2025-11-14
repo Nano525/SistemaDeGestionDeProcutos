@@ -44,7 +44,7 @@
                     <Label text="    " />
                     <HBox prefHeight="42.0" prefWidth="288.0">
                         <children>
-                            <Button mnemonicParsing="false" prefHeight="15.0" prefWidth="113.0" text="Cancelar" />
+                            <Button fx:id="OnCancelarButton" mnemonicParsing="false" onAction="#OnCancelarButton" prefHeight="15.0" prefWidth="113.0" text="Cancelar" />
                             <Label text="    " />
                             <Button mnemonicParsing="false" prefHeight="18.0" prefWidth="117.0" text="Guardar Cambios" />
                         </children>
